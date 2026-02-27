@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio | Creative Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container nav-content">
+            <a href="#" class="logo">Portfolio</a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Work</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-toggle">☰</div>
+        </div>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="container hero-content">
+            <span class="greeting">Hello, I'm Jeff4Dev</span>
+            <h1 class="hero-title">Mobile <span class="gradient-text">Developer</span></h1>
+            <p class="hero-subtitle">Building beautiful, interactive digital experiences.</p>
+            <div class="cta-group">
+                <a href="#projects" class="btn btn-primary">View My Work</a>
+                <a href="#contact" class="btn btn-outline">Contact Me</a>
+            </div>
+        </div>
+        <div class="hero-background">
+            <div class="blob blob-1"></div>
+            <div class="blob blob-2"></div>
+        </div>
+    </header>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Saya adalah Developer dengan pengalaman 2 tahun di industri teknologi. Saya fokus pada pengembangan aplikasi mobile yang berperforma tinggi, ramah pengguna, dan dirancang dengan baik. Saya memiliki keahlian dalam berbagai teknologi mobile seperti Flutter, Dart, dan Android Native Java. Semangat belajar dan pengembangan diri menjadi motivasi utama saya dalam menciptakan solusi digital yang inovatif dan bermanfaat. dengan seiring dunia teknologi yang terus berkembang, saya terus belajar dan mengikuti perkembangan teknologi terbaru untuk memberikan hasil terbaik dalam setiap proyek yang saya kerjakan.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>Mobile Development</h3>
+                    <p>Flutter,dart,Android Native(Java),rest API</p>
+
+                </div>
+                <div class="skill-card">
+                    <h3>Web Development</h3>
+                    <p>PHP/laravel or Codeigniter, SvelteKit, Node.js, Express.js,Typescript, REST APIs</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Tools</h3>
+                    <p>Git, VS Code, Android Studio, Cloud Hosting/VPS</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+  <div class="container">
+    <h2 class="section-title">Featured Projects</h2>
+
+    <div class="projects-grid">
+      <article class="project-card">
+        <div class="project-image">
+          <img src="images/project-1.png" alt="Q`kiddies">
+        </div>
+        <div class="project-content">
+          <h3>Aplikasi pembayaran SPP Q`kiddies</h3>
+          <p>Aplikasi ini adalah aplikasi yg mencatat pembayaran SPP dari murid/siswa yg bersekolah di Q`kiddies Playgroup & Kindergarten</p>
+          <p>Aplikasi ini menggunakan teknologi framework flutter</p>
+          <!-- <a href="#" class="btn-link">View Project &rarr;</a> -->
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-image">
+          <img src="images/project-2.jpg" alt="lapor dewan">
+        </div>
+        <div class="project-content">
+          <h3>Aplikasi Lapor Dewan</h3>
+          <p>Aplikasi ini adalah aplikasi Lapor Dewan yang memungkinkan warga untuk melaporkan masalah di lingkungan mereka secara digital. aplikasi ini diterapkan di wilayah Kab. Bone Bolango yang di resmikan oleh DPRD Kab. Bone Bolango.</p>
+          <p>Aplikasi ini menggunakan teknologi framework flutter</p>
+          <!-- <a href="#" class="btn-link">View Project &rarr;</a> -->
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-image">
+          <img src="images/project-3.png" alt="csai crm whatsapp">
+        </div>
+        <div class="project-content">
+          <h3>Aplikasi CSAI CRM WhatsApp</h3>
+          <p>Aplikasi ini adalah aplikasi CRM WhatsApp yang digunakan oleh CSAI untuk mengelola kontak dan komunikasi dengan pelanggan mereka.</p>
+          <p>Aplikasi ini menggunakan android native java</p>
+          <!-- <a href="#" class="btn-link">View Project &rarr;</a> -->
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="contact-subtitle">Have a project in mind? Let's work together.</p>
+            <form class="contact-form" id="contact-form">
+                <div class="form-group">
+                    <input type="text" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; <span id="year"></span> My Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <button id="scrollToTopBtn" class="scroll-to-top">↑</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
